@@ -6,7 +6,7 @@ use CodeIgniter\RESTful\ResourceController;
 
 class CategoriaController extends ResourceController
 {
-    protected $categoriaModel = 'App\Models\CategoriaModel';
+    protected $modelName = 'App\Models\CategoriaModel';
     protected $format = 'json';
 
     //GET/api/categoria ->listar todas
